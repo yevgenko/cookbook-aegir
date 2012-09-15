@@ -3,7 +3,7 @@ maintainer_email "craftsman@yevgenko.me"
 license          "Apache 2.0"
 description      "Aegir Hosting System"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          "0.1.0"
+version          "0.1.1"
 recipe           "aegir", "Install aegir with nginx and php-fpm"
 recipe           "aegir::secure_mysql", "Secure mysql installation"
 

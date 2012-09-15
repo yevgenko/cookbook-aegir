@@ -1,6 +1,3 @@
-execute "apt-get update"
-execute "apt-get -y upgrade"
-
 include_recipe "php-fpm"
 include_recipe "nginx"
 

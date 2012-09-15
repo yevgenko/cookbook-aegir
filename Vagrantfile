@@ -67,6 +67,7 @@ Vagrant::Config.run do |config|
     chef.cookbooks_path = ".sandbox/cookbooks"
     chef.roles_path = ".sandbox/roles"
     chef.data_bags_path = ".sandbox/data_bags"
+    chef.add_recipe "apt"
     chef.add_recipe "mysql::server"
     chef.add_recipe "aegir::secure_mysql"
     chef.add_recipe "aegir"

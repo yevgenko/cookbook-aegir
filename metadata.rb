@@ -11,7 +11,7 @@ recipe           "aegir::secure_mysql", "Secure mysql installation"
   supports os
 end
 
-%w{ sudo nginx mysql openssl php php-fpm }.each do |cb|
+%w{ apt sudo nginx mysql openssl php php-fpm }.each do |cb|
   depends cb
 end
 

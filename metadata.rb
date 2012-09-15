@@ -1,7 +1,7 @@
 maintainer       "Yevgeniy Viktorov"
 maintainer_email "craftsman@yevgenko.me"
 license          "Apache 2.0"
-description      "Aegir Hosting System"
+description      "Hosting System for Drupal Sites"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          "0.1.1"
 recipe           "aegir", "Install aegir with nginx and php-fpm"

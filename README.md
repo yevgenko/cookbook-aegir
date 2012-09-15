@@ -1,7 +1,8 @@
 # Aegir Cookbook
 
-Collection of recipes to deploy [Aegir][] hosting system with [Chef][]
+The [Aegir][] is a hosting system for deploying and managing large networks of
+[Drupal][] sites. This collection of recipes automate [Aegir][] setup.
 
 
 [Aegir]:http://www.aegirproject.org/
-[Chef]:http://www.opscode.com/chef/
+[Drupal]:http://www.drupal.org/

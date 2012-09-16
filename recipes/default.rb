@@ -1,9 +1,7 @@
 include_recipe "php-fpm"
 include_recipe "nginx"
 
-if node[:aegir][:host]
-  server_fqdn = node[:aegir][:host]
-elsif node.has_key?("ec2")
+if node.has_key?("ec2")
   server_fqdn = node.ec2.public_hostname
 else
   server_fqdn = node.fqdn

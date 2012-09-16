@@ -80,7 +80,7 @@ Vagrant::Config.run do |config|
       },
       "aegir" => {
         "client_email" => "vagrant@precise32",
-        "frontend" => "aegir.dev"
+        "frontend" => "localhost"
       }
     }
   end
